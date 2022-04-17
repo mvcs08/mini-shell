@@ -9,7 +9,7 @@ Implementação de um programa que simula um shell do sistema operacional a fim 
 ```
 1. Baixe ou clone este repositório.
 2. Entre na pasta myshell
-3. gcc -o myshell main.c funcoes.c funcoes.h
+3. execute make
 4. ./myshell
 ```
 
