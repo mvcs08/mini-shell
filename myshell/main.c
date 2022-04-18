@@ -40,6 +40,9 @@ int main()
             case 5:
                 f_kill(atoi(palavras.palavras[1]));
                 break;
+            case 6:
+                f_quit();
+                break;
         }
     }
 
