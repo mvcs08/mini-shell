@@ -15,6 +15,7 @@ void f_wait();
 void f_stop(int id);
 void f_continue(int id);
 void f_kill(int id);
+void f_quit();
 
 
 
