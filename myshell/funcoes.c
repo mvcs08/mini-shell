@@ -43,6 +43,7 @@ int codigoFuncao(char *arg){
     if(strcmp(arg,"stop")==0){return 3;};
     if(strcmp(arg,"continue")==0){return 4;};
     if(strcmp(arg,"kill")==0){return 5;};
+    if(strcmp(arg,"quit")==0){return 6;};
 
 
     return -1;
@@ -107,4 +108,8 @@ void f_continue(int id){
 void f_kill(int id){
     kill(id,1);
     printf("myshell: processo %d finalizado\n", id);
+}
+
+void f_quit(){
+    exit(0);
 }
